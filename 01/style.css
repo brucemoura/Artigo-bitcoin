@@ -371,7 +371,7 @@ footer > .copy{
     padding: 60px 0 10px 0;
 }
 
-
+/*botao para voltar ao topo do site*/
 .voltar{
     position: fixed;
     top: 92%;
@@ -430,6 +430,11 @@ footer > .copy{
         top: 50%;
         transform: translate(-50%, -50%);
     }
+
+    .voltar{
+        top: 85%;
+        left: 90%;
+    }
 }
 
 @media screen and (max-width: 1060px) {
@@ -462,6 +467,20 @@ footer > .copy{
 }
 
 @media screen and (max-width: 665px) {
+    header {
+        height: 1700px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .bit-image {
+        width: 100%;
+        max-width: 500px;
+        display: block;
+        margin: auto;
+        padding: 5px;
+    }
+
     footer{
         height: 1700px;
         
@@ -470,4 +489,31 @@ footer > .copy{
         column-count: 1;
     }
 
+    .voltar{
+        top: 85%;
+        left: 84.5%;
+    }
+
+    header > .espacamento > .direita{
+        padding: 20px;
+    }
+
+    header > .espacamento > .direita > .tech{
+        text-align: center;
+    }
+
+    header > .espacamento > .direita > .titulos{
+        width: 200px;
+        margin: 30px auto 0 auto;
+    }
+
+    header > .espacamento > .direita > .titulos > ul{
+        column-count: 1;
+    }
+
+    .text-info{
+        margin: 0;
+    }
 }
+
+
