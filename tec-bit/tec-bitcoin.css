@@ -250,16 +250,25 @@ footer > #back{
 
     /*texto: tecnologias bitcoin */
     header > section#tecnologias > .text-info > .font1 > h2 {
-        font-size: 7vw;
+        font-size: 5vw;
         width: 100%;
         max-width: 700px;
         font-family: font01;
         text-align: center;
     }
-    
+    header > section#tecnologias > .text-info > .font2{
+        font-size: 20px;
+        font-family: font01;
+        /*'Courier New', Courier, monospace*/
+        width: 100%;
+        max-width: 650px;
+        margin-top: 20px;
+    }
 }
-
 @media screen and (max-width: 850px) {
+    header > section#tecnologias > .text-info > .font1 > h2 {
+        font-size: 8vw;
+    }
     header > section#tecnologias > .text-info > .font1 > h2 > img {
         display: block;
         margin: auto;
